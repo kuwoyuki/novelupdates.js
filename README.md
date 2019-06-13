@@ -1,7 +1,9 @@
-# novelupdates.js
+# novelupdates.js [![Build Status](https://travis-ci.org/kuwoyuki/novelupdates.js.svg?branch=master)](https://travis-ci.org/kuwoyuki/novelupdates.js)
+
 parses novelupdates 🤷
 
 ## Installing
+
 idk just use github for now
 
 ```sh
