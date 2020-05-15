@@ -4,10 +4,10 @@ parses novelupdates 🤷
 
 ## Installing
 
-idk just use github for now
+install from npmjs
 
 ```sh
-yarn add kuwoyuki/novelupdates.js#master
+yarn add novelupdates.js
 ```
 
 ## Usage
@@ -55,6 +55,6 @@ module.exports = {
    * @param {number} page Page number
    */
   latestNovelsList: (page) =>
-    fetchList("latest-series", page).then(parsers.novelsList)
+    fetchList("latest-series", { page }).then(parsers.novelsList),
 };
 ```

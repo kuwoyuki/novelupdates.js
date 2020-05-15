@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "just a novelupdates wrapper?",
   "main": "index.js",
+  "homepage": "https://github.com/kuwoyuki/novelupdates.js",
   "repository": "https://github.com/kuwoyuki/novelupdates.js.git",
+  "bugs": {
+    "url": "https://github.com/kuwoyuki/novelupdates.js/issues",
+    "email": "kuwoyuki@cock.li"
+  },
   "author": "kuwoyuki <kuwoyuki@cock.li>",
   "license": "ISC",
   "scripts": {
