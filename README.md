@@ -36,7 +36,7 @@ module.exports = {
    * @param {number} opts.pg Page number
    * @param {number} opts.st 1
    */
-  tagsList: opts => fetchList("list-tags", opts).then(parsers.tagsList),
+  tagsList: page => fetchList("list-tags", { page }).then(parsers.tagsList),
   /**
    * @param {number} id Novel ID
    */
@@ -45,7 +45,7 @@ module.exports = {
    * General novels list
    *
    * @param {object} opts List request params
-   * @param {number} opts.pg Page number
+   * @param {number} opts.page Page number
    * @param {number} opts.sort frequency = 1, rank = 2, rating = 3, readers = 4, chapters = 5, reviews = 6, title = 7, last updated = 8
    * @param {number} opts.order asc = 1, desc = 2
    * @param {number} opts.status all = 1, completed = 2, ongoing = 3, hiatus = 4
